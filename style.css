@@ -1,0 +1,66 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 2px hsl(0, 0%, 7%);
+    gap: 24px;
+    margin: 12px;
+    border:1px solid hsl(0, 0%, 7%);
+    box-sizing: border-box;
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.box2{
+    width: 336px;
+    height: 194px;
+}
+.learning{
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: small;
+    padding:3px;
+}
+h2{
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+h5{
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+p{
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+.box3{
+    display: flex;
+    align-items: center;
+}
+.img2{
+    width:32px;
+    height: 32px;
+}
+.name{
+    color: hsl(0, 0%, 7%);
+    font-weight:800;
+    margin-left: 5px;
+}
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
